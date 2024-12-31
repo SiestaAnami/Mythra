@@ -54,6 +54,26 @@ button:hover {
     box-shadow: 0 0 20px #00e0ff;
 }
 
+/* Custom scrollbar styling */
+#content::-webkit-scrollbar {
+    width: 12px;  /* Width of the scrollbar */
+}
+
+#content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.6); /* Background color of the track */
+    border-radius: 10px;
+}
+
+#content::-webkit-scrollbar-thumb {
+    background: #00e0ff; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#content::-webkit-scrollbar-thumb:hover {
+    background: #00b0ff; /* Hover effect for the thumb */
+}
+
 /* Headers inside the content box */
 #content h2 {
     margin-top: 0;
